@@ -174,7 +174,13 @@ export class GoogleMap {
 
   @CordovaInstance({ sync: true })
   setZoom(zoomLevel: number): void { }
-
+  /* 
+*                               MAP_TYPE_HYBRID
+*                               MAP_TYPE_SATELLITE
+*                               MAP_TYPE_TERRAIN
+*                               MAP_TYPE_NORMAL
+*                               MAP_TYPE_NONE
+  */
   @CordovaInstance({ sync: true })
   setMapTypeId(mapTypeId: string): void { }
 
